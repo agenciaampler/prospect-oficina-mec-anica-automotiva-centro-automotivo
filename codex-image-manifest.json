@@ -1,0 +1,109 @@
+{
+    "schema": "ampler.codex-image-manifest.v1",
+    "prospect_id": "oficina-mec-anica-automotiva-centro-automotivo",
+    "company_name": "Oficina Mecânica Automotiva - Centro Automotivo",
+    "created_at": "2026-07-01T18:51:21-03:00",
+    "site_variant": {
+        "id": "41-neighborhood-traditional-technical-dark",
+        "name": "Oficina local tradicional / Technical dark",
+        "family": "Oficina local tradicional",
+        "style": "Technical dark",
+        "hero_mode": "left",
+        "service_layout": "standard"
+    },
+    "image_count": 6,
+    "required_image_count": 6,
+    "icon_library": {
+        "name": "Phosphor Icons",
+        "package": "@phosphor-icons/web",
+        "version": "2.1.1",
+        "weight": "regular",
+        "cdn_css": "https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css",
+        "icons": {
+            "primary_cta": "ph-whatsapp-logo",
+            "secondary_cta": "ph-arrow-right",
+            "rating": "ph-star",
+            "service_diagnostic": "ph-gauge",
+            "service_brakes": "ph-steering-wheel",
+            "service_preventive": "ph-wrench",
+            "local": "ph-map-pin",
+            "faq": "ph-question",
+            "car": "ph-car",
+            "trust": "ph-check-circle"
+        }
+    },
+    "instructions": [
+        "Generate these images inside Codex using the image generation tool.",
+        "Do not put text, logos, license plates or watermarks inside generated images.",
+        "Copy each generated image into the listed file path, converting to WebP when needed.",
+        "The website is not ready to publish until every required image exists."
+    ],
+    "assets": {
+        "hero-mobile": {
+            "file": "assets/images/hero-mobile.webp",
+            "width": 1536,
+            "height": 2048,
+            "aspect_ratio": "3:4",
+            "role": "Hero mobile principal",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: mobile landing page hero image for a Brazilian auto repair shop\nPrimary request: create a premium vertical advertising photograph for a local auto repair shop in Curitiba, Brazil, serving popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; inspired by brands served: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, but with no visible logos, no emblems and no readable badges\nRegional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings\nScene/backdrop: clean, organized mechanical workshop near a Curitiba/RMC urban street, tires, tool cabinets, car lift, diagnostic equipment, wet asphalt outside and realistic local workshop details\nSubject: fictional professional mechanic or service advisor, confident and trustworthy, looking at the camera\nStyle/medium: photorealistic editorial advertising photography\nComposition/framing: vertical 3:4 mobile-first hero crop, subject clear in the center-right, background cinematic, usable dark negative space for website headline overlay\nLighting/mood: soft natural window light mixed with subtle workshop lighting, modern, competent and trustworthy\nColor palette: use the prospect brand palette subtly in wardrobe accents and workshop details: primary #FFFFFF, secondary #F2F4F6, accent #111112\nText: no text\nConstraints: realistic Brazilian workshop, no logo, no brand names, no license plates, no watermark, no fake business signage\nAvoid: fake-looking hands, distorted tools, unreadable labels, extra fingers, generic stock-photo smile",
+            "engine": "codex_image_gen",
+            "size": "1536x2048"
+        },
+        "hero-desktop": {
+            "file": "assets/images/hero-desktop.webp",
+            "width": 1920,
+            "height": 1080,
+            "aspect_ratio": "16:9",
+            "role": "Hero desktop principal",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: desktop landing page hero image for a Brazilian auto repair shop\nPrimary request: premium photorealistic advertising photo of a modern Brazilian auto repair workshop in Curitiba serving popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; inspired by brands served: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, but remove all visible logos, emblems, badges and license plates\nRegional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings\nScene/backdrop: a matching vehicle lifted for inspection, organized tools, tires, diagnostic scanner, clean but realistic working environment, glimpse of a Curitiba/RMC street outside the workshop\nStyle/medium: cinematic commercial automotive photography\nComposition/framing: wide 16:9 hero crop, strong vehicle/service scene on the right, generous dark negative space on the left for headline and CTA\nLighting/mood: cinematic natural light from large windows, shallow depth of field, high trust, technical competence\nColor palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112\nText: no text\nConstraints: no logos, no readable text, no license plates, no watermark, no fake business signage\nAvoid: distorted car details, fake tools, generic stock-photo look",
+            "engine": "codex_image_gen",
+            "size": "1920x1080"
+        },
+        "service-1": {
+            "file": "assets/images/service-1.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Card de diagnóstico",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: service card image for a mobile-first Brazilian auto repair landing page\nPrimary request: photorealistic premium advertising photo of an automotive diagnostic service for popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems\nScene/backdrop: organized workshop bench, diagnostic scanner, open car hood, technician hands using equipment, no visible brand logos, subtle Curitiba/RMC workshop surroundings\nStyle/medium: realistic commercial photography with shallow depth of field\nComposition/framing: 4:3 service card crop, clear focal point, no text overlays\nLighting/mood: confident, technical, clean, high-trust\nColor palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112\nConstraints: no readable text, no logos, no license plates, no watermark\nAvoid: distorted hands, messy workshop, generic stock photo",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "service-2": {
+            "file": "assets/images/service-2.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Card de pneus/freios/suspensão",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: service card image for a mobile-first Brazilian auto repair landing page\nPrimary request: photorealistic premium advertising photo of brake, tire or suspension service for popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems\nScene/backdrop: close-up of wheel, brake disc, tire tread and mechanic tools in a clean Curitiba/RMC auto center\nStyle/medium: high-end automotive service photography\nComposition/framing: 4:3 crop, strong mechanical detail, dynamic angle, no text overlays\nLighting/mood: precise, safe, professional\nColor palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112\nConstraints: no readable text, no logos, no license plates, no watermark\nAvoid: fake-looking metal, warped wheels, distorted tools",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "trust": {
+            "file": "assets/images/trust.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Imagem de confiança/atendimento",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: trust image for a Brazilian auto repair landing page\nPrimary request: photorealistic premium advertising photo showing trustworthy workshop service in Curitiba/RMC\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems\nScene/backdrop: service advisor or mechanic explaining car maintenance with a clipboard/tablet beside a matching vehicle, fictional people only, clean workshop with regional urban details\nStyle/medium: realistic editorial commercial photography\nComposition/framing: 4:3 crop, warm human moment, clear automotive context, no text overlays\nLighting/mood: approachable, competent, honest, professional\nColor palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112\nConstraints: fictional people, no real business identity, no logos, no readable text, no license plates, no watermark\nAvoid: exaggerated smiles, fake hands, messy workshop, generic stock image",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "og-image": {
+            "file": "assets/images/og-image.webp",
+            "width": 1200,
+            "height": 630,
+            "aspect_ratio": "1.91:1",
+            "role": "Preview social/WhatsApp",
+            "required": true,
+            "prompt": "Create a premium advertising image for a local Brazilian auto repair shop website preview in Curitiba/RMC. Show a clean mechanical workshop with popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges being inspected, tires and tools in the background, warm professional lighting, high trust, modern service quality. Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings. Composition must work as a WhatsApp link preview thumbnail. Use subtle brand accents: #FFFFFF, #F2F4F6, #111112. No text, no logos, no visible emblems, no watermark, no license plates.",
+            "engine": "codex_image_gen",
+            "size": "1200x630"
+        }
+    }
+}
