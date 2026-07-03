@@ -5,18 +5,20 @@
 ```text
 Use case: ads-marketing
 Asset type: mobile landing page hero image for a Brazilian auto repair shop
+Required output dimensions: 1536x2048, vertical 3:4
 Primary request: create a premium vertical advertising photograph for a local auto repair shop in Curitiba, Brazil, serving popular vehicles
-Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; inspired by brands served: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, but with no visible logos, no emblems and no readable badges
-Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings
-Scene/backdrop: clean, organized mechanical workshop near a Curitiba/RMC urban street, tires, tool cabinets, car lift, diagnostic equipment, wet asphalt outside and realistic local workshop details
-Subject: fictional professional mechanic or service advisor, confident and trustworthy, looking at the camera
+Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle silhouettes matching served brands: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan. Official brand logos are handled as separate website UI assets, not inside this generated photo. Do not invent or show brand logos, badges, emblems or readable model marks
+People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look
+Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Eng. Niepce da Silva, 231 - Portão, Curitiba - PR, 80610-280; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather
+Scene/backdrop: clean, organized mechanical workshop near a Curitiba/RMC urban street, tires, tool cabinets, car lift, diagnostic equipment and realistic local workshop details
+Subject: fictional professional mechanic or service advisor, confident and trustworthy, looking at the camera; use a unique face, outfit and pose for this asset, not repeated in other site images
 Style/medium: photorealistic editorial advertising photography
-Composition/framing: vertical 3:4 mobile-first hero crop, subject clear in the center-right, background cinematic, usable dark negative space for website headline overlay
-Lighting/mood: soft natural window light mixed with subtle workshop lighting, modern, competent and trustworthy
+Composition/framing: vertical 3:4 mobile-first hero crop, subject clear in the center-right, background cinematic, usable dark negative space for website headline overlay, keep faces/hands/vehicle details inside the central 82% safe area, no important detail on the outer crop edges
+Lighting/mood: bright natural daylight, modern, competent and trustworthy; dry floor and dry street only
 Color palette: use the prospect brand palette subtly in wardrobe accents and workshop details: primary #FFFFFF, secondary #F2F4F6, accent #111112
 Text: no text
-Constraints: realistic Brazilian workshop, no logo, no brand names, no license plates, no watermark, no fake business signage
-Avoid: fake-looking hands, distorted tools, unreadable labels, extra fingers, generic stock-photo smile
+Constraints: realistic Brazilian workshop, no fake business signage, no license plates, no watermark
+Avoid: night, rain, wet asphalt, overcast gloom, emergency roadside mood, fake-looking hands, distorted tools, unreadable labels, extra fingers, repeated character, generic stock-photo smile
 ```
 
 ## hero-desktop
@@ -24,17 +26,19 @@ Avoid: fake-looking hands, distorted tools, unreadable labels, extra fingers, ge
 ```text
 Use case: ads-marketing
 Asset type: desktop landing page hero image for a Brazilian auto repair shop
+Required output dimensions: 1920x1080, wide 16:9
 Primary request: premium photorealistic advertising photo of a modern Brazilian auto repair workshop in Curitiba serving popular vehicles
-Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; inspired by brands served: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, but remove all visible logos, emblems, badges and license plates
-Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings
+Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle silhouettes matching served brands: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan. Official brand logos are handled as separate website UI assets, not inside this generated photo. Do not invent or show brand logos, badges, emblems or readable model marks
+People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look
+Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Eng. Niepce da Silva, 231 - Portão, Curitiba - PR, 80610-280; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather
 Scene/backdrop: a matching vehicle lifted for inspection, organized tools, tires, diagnostic scanner, clean but realistic working environment, glimpse of a Curitiba/RMC street outside the workshop
-Style/medium: cinematic commercial automotive photography
-Composition/framing: wide 16:9 hero crop, strong vehicle/service scene on the right, generous dark negative space on the left for headline and CTA
-Lighting/mood: cinematic natural light from large windows, shallow depth of field, high trust, technical competence
+Style/medium: cinematic commercial automotive photography with Brazilian bank-campaign polish
+Composition/framing: wide 16:9 hero crop, strong vehicle/service scene on the right, generous dark negative space on the left for headline and CTA, keep main subject and vehicle within the central 86% safe area
+Lighting/mood: bright natural daylight through large workshop windows, shallow depth of field, high trust, technical competence; dry floor and dry street only
 Color palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112
 Text: no text
-Constraints: no logos, no readable text, no license plates, no watermark, no fake business signage
-Avoid: distorted car details, fake tools, generic stock-photo look
+Constraints: no readable text, no license plates, no watermark, no fake business signage
+Avoid: night, rain, wet asphalt, overcast gloom, emergency roadside mood, distorted car details, fake tools, repeated character, generic stock-photo look
 ```
 
 ## service-1
@@ -42,15 +46,17 @@ Avoid: distorted car details, fake tools, generic stock-photo look
 ```text
 Use case: ads-marketing
 Asset type: service card image for a mobile-first Brazilian auto repair landing page
+Required output dimensions: 1024x768, 4:3
 Primary request: photorealistic premium advertising photo of an automotive diagnostic service for popular vehicles
-Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems
-Scene/backdrop: organized workshop bench, diagnostic scanner, open car hood, technician hands using equipment, no visible brand logos, subtle Curitiba/RMC workshop surroundings
+Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle details matching Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks
+People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look
+Scene/backdrop: organized workshop bench, diagnostic scanner, open car hood, technician hands using equipment, subtle Curitiba/RMC workshop surroundings
 Style/medium: realistic commercial photography with shallow depth of field
-Composition/framing: 4:3 service card crop, clear focal point, no text overlays
-Lighting/mood: confident, technical, clean, high-trust
+Composition/framing: 4:3 service card crop, clear focal point centered, no text overlays, avoid placing tools or hands on crop edges
+Lighting/mood: bright daylight, confident, technical, clean, high-trust; dry workshop floor only
 Color palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112
-Constraints: no readable text, no logos, no license plates, no watermark
-Avoid: distorted hands, messy workshop, generic stock photo
+Constraints: no readable text, no license plates, no watermark
+Avoid: night, rain, wet asphalt, gloomy weather, visible repeated face from hero images, distorted hands, messy workshop, generic stock photo
 ```
 
 ## service-2
@@ -58,15 +64,17 @@ Avoid: distorted hands, messy workshop, generic stock photo
 ```text
 Use case: ads-marketing
 Asset type: service card image for a mobile-first Brazilian auto repair landing page
+Required output dimensions: 1024x768, 4:3
 Primary request: photorealistic premium advertising photo of brake, tire or suspension service for popular vehicles
-Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems
+Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible wheel/body details matching Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks
+People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look
 Scene/backdrop: close-up of wheel, brake disc, tire tread and mechanic tools in a clean Curitiba/RMC auto center
-Style/medium: high-end automotive service photography
-Composition/framing: 4:3 crop, strong mechanical detail, dynamic angle, no text overlays
-Lighting/mood: precise, safe, professional
+Style/medium: high-end automotive service photography with Brazilian institutional advertising polish
+Composition/framing: 4:3 crop, strong mechanical detail, dynamic angle, no text overlays, keep wheel/brake detail inside the central safe area
+Lighting/mood: bright daylight, precise, safe, professional; dry workshop floor only
 Color palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112
-Constraints: no readable text, no logos, no license plates, no watermark
-Avoid: fake-looking metal, warped wheels, distorted tools
+Constraints: no readable text, no license plates, no watermark
+Avoid: night, rain, wet asphalt, gloomy weather, fake-looking metal, warped wheels, distorted tools, repeated character
 ```
 
 ## trust
@@ -74,20 +82,22 @@ Avoid: fake-looking metal, warped wheels, distorted tools
 ```text
 Use case: ads-marketing
 Asset type: trust image for a Brazilian auto repair landing page
+Required output dimensions: 1024x768, 4:3
 Primary request: photorealistic premium advertising photo showing trustworthy workshop service in Curitiba/RMC
-Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges; brands served reference: Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan, without visible logos or emblems
-Scene/backdrop: service advisor or mechanic explaining car maintenance with a clipboard/tablet beside a matching vehicle, fictional people only, clean workshop with regional urban details
+Vehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle context matching Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks
+People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look
+Scene/backdrop: a different fictional service advisor or mechanic explaining car maintenance with a clipboard/tablet beside a matching vehicle, clean workshop with regional urban details
 Style/medium: realistic editorial commercial photography
-Composition/framing: 4:3 crop, warm human moment, clear automotive context, no text overlays
-Lighting/mood: approachable, competent, honest, professional
+Composition/framing: 4:3 crop, warm human moment, clear automotive context, no text overlays, faces and hands inside central safe area
+Lighting/mood: bright daylight, approachable, competent, honest, professional; dry workshop floor only
 Color palette: subtle brand accents: primary #FFFFFF, secondary #F2F4F6, accent #111112
-Constraints: fictional people, no real business identity, no logos, no readable text, no license plates, no watermark
-Avoid: exaggerated smiles, fake hands, messy workshop, generic stock image
+Constraints: fictional people, no real business identity, no readable text, no license plates, no watermark
+Avoid: night, rain, wet asphalt, gloomy weather, repeated hero character, exaggerated smiles, fake hands, messy workshop, generic stock image
 ```
 
 ## og-image
 
 ```text
-Create a premium advertising image for a local Brazilian auto repair shop website preview in Curitiba/RMC. Show a clean mechanical workshop with popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, no visible badges being inspected, tires and tools in the background, warm professional lighting, high trust, modern service quality. Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, rainy asphalt, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings. Composition must work as a WhatsApp link preview thumbnail. Use subtle brand accents: #FFFFFF, #F2F4F6, #111112. No text, no logos, no visible emblems, no watermark, no license plates.
+Create a premium advertising image for a local Brazilian auto repair shop website preview in Curitiba/RMC. Required output dimensions: 1200x630, social preview ratio 1.91:1. Show a clean mechanical workshop with popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes being inspected, tires and tools in the background, warm daylight, high trust, modern service quality. People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look. Use logo-free, brand-compatible vehicle silhouettes matching Fiat, Chevrolet, Volkswagen, Renault, Hyundai, Toyota, Honda, Nissan; official brand logos are separate website UI assets, not part of this generated image. Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Eng. Niepce da Silva, 231 - Portão, Curitiba - PR, 80610-280; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather. Composition must work as a WhatsApp link preview thumbnail with the subject centered and no important detail near the edges. Use subtle brand accents: #FFFFFF, #F2F4F6, #111112. No text, no watermark, no license plates, no visible vehicle logos, no badges. Avoid night, rain, wet asphalt, gloomy weather and repeated characters.
 ```
 
