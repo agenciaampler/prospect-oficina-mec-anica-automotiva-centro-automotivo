@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "site": "https://agenciaampler.github.io/prospect-oficina-mec-anica-automotiva-centro-automotivo/index.html",
+    "business": {
+        "name": "Oficina Mecânica Automotiva - Centro Automotivo",
+        "type": "AutoRepair",
+        "address": "R. Eng. Niepce da Silva, 231 - Portão, Curitiba - PR, 80610-280",
+        "areaServed": [
+            "Curitiba e regiao metropolitana"
+        ]
+    },
+    "actions": [
+        {
+            "id": "contact-whatsapp",
+            "name": "Falar pelo WhatsApp",
+            "description": "Inicia uma conversa no WhatsApp com a oficina para pedir orientação, orçamento ou agendamento.",
+            "method": "link",
+            "target": "https://wa.me/554134086207?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Oficina%20Mec%C3%A2nica%20Automotiva%20-%20Centro%20Automotivo%20e%20gostaria%20de%20agendar%20um%20atendimento.",
+            "parameters": {
+                "optional": [
+                    "vehicle_brand",
+                    "vehicle_model",
+                    "vehicle_year",
+                    "symptom"
+                ]
+            }
+        },
+        {
+            "id": "open-route",
+            "name": "Abrir rota no mapa",
+            "description": "Abre a localização da oficina no Google Maps para conferir endereço e rota.",
+            "method": "link",
+            "target": "https://maps.google.com/?cid=11839413681113586380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+            "parameters": {
+                "optional": [
+                    "origin"
+                ]
+            }
+        }
+    ]
+}
